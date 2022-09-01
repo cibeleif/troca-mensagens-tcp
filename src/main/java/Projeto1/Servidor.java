@@ -18,7 +18,7 @@ public class Servidor {
             ServerSocket s = new ServerSocket(2000);
             System.out.println("Esperando conexão.............");
             
-            //servidor aceita a conexão
+            //servidor aceita a conexão e cria um socket exclusivo
             Socket conexao = s.accept();
             //imprime no terminal que a conexão foi aceita
             System.out.println("Conexao aceita, esperando dados...");
